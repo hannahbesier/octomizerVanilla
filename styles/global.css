@@ -1,0 +1,56 @@
+:root {
+    --primary-bg-color: #122357;
+    --primaryHover-bg-color: #5b73bb;
+    --secondary-bg-color: #ececec;
+    --hover-bg-color: #e0e0e0;
+    --background-bg-color: #f0f0f0;
+}
+
+#header {
+    background-color: var(--primary-bg-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    display: flex;
+    height: 2.5rem;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background-bg-color);
+}
+
+.container {
+    padding: 2rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    border-radius: 5px;
+    height: 2.5rem;
+    border: none;
+    font-size: medium;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: fit-content;
+}
+
+.buttonPrimary {
+    background-color: var(--primary-bg-color);
+    color: white;
+}
+
+.buttonPrimary:hover {
+    background-color: var(--primaryHover-bg-color);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
