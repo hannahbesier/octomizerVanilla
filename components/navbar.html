@@ -1,5 +1,5 @@
 <style>
-    #navbar {
+    #navbarCon {
         display: flex;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -28,17 +28,9 @@
         border-bottom: 2px solid var(--primary-bg-color);
     }
 </style>
-<div id="navbar">
-    <a class="link" href="index.php">Home</a>
-    <a class="link" href="issueboard.php">Issue board</a>
-    <a class="link" href="myIssues.php">My issues</a>
-    <a class="link" href="projects.php">Projects</a>
-</div>
-<script>
-    const currentPath = window.location.pathname;
-    document.querySelectorAll(".link").forEach(link => {
-        if (link.pathname === currentPath) {
-            link.classList.add("active");
-        }
-    });
-</script>
+<nav id="navbarCon">
+    <a class="link" href="/" link>Home</a>
+    <a class="link" href="issueBoard" link>Issue board</a>
+    <a class="link" href="myIssues" link>My issues</a>
+    <a class="link" href="projects" link>Projects</a>
+</nav>
